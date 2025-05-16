@@ -18,8 +18,19 @@ body .imgbox img {
   font-size: 20px;
   color: #6b6a6a;
 }
-#carefor .imgbox {
-  width: 500px;
+@media (max-width: 992px) {
+  #carefor .textbox {
+    text-align: center;
+  }
+  #carefor .textbox h1 {
+    font-size: 30px;
+  }
+  #carefor .textbox h3 {
+    font-size: 18px;
+  }
+  #carefor .imgbox {
+    margin-top: 40px;
+  }
 }
 
 #welcome {
@@ -56,12 +67,26 @@ body .imgbox img {
   width: 580px;
   padding: 0;
 }
+@media (max-width: 992px) {
+  #welcome .textbox {
+    padding: 15px;
+  }
+  #welcome .textbox h3 {
+    font-size: 18px;
+  }
+  #welcome .textbox h2, #welcome .textbox h6 {
+    margin: 10px;
+  }
+  #welcome .imgbox {
+    padding: 10px;
+  }
+}
 
 #aboutus {
   padding: 40px 0;
 }
 #aboutus .textbox {
-  padding: 0 100px;
+  padding: 0 10px;
 }
 #aboutus .textbox h1 {
   font-weight: 700;
@@ -91,8 +116,25 @@ body .imgbox img {
   color: #949494;
   font-size: 20px;
 }
-#aboutus .imgbox {
-  width: 450px;
+@media (max-width: 992px) {
+  #aboutus .textbox {
+    text-align: center;
+  }
+  #aboutus .textbox h1 {
+    font-size: 30px;
+  }
+  #aboutus .textbox h3, #aboutus .textbox p {
+    font-size: 18px;
+  }
+  #aboutus ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #aboutus .imgbox {
+    margin: 50px 10px 0 10px;
+  }
 }
 
 #ourtrainers {
@@ -115,7 +157,7 @@ body .imgbox img {
 #ourtrainers .box .textbox {
   padding: 15px 0;
 }
-#ourtrainers .box h2 {
+#ourtrainers .box .textbox h2 {
   font-weight: 300;
   font-size: 25px;
   padding: 20px 0 0;
@@ -141,6 +183,26 @@ body .imgbox img {
 #ourtrainers .wid .icon {
   font-size: 25px;
   color: #a8a8a8;
+}
+@media (max-width: 992px) {
+  #ourtrainers h1 {
+    font-size: 30px;
+  }
+  #ourtrainers h3, #ourtrainers h4 {
+    font-size: 18px;
+  }
+  #ourtrainers .box .textbox {
+    text-align: center;
+  }
+  #ourtrainers .box .textbox h2 {
+    padding: 10px 0 0;
+  }
+  #ourtrainers .box ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 #pricingtable {
@@ -197,12 +259,20 @@ body .imgbox img {
 #pricingtable .box .PREMIUM-color .btn {
   background-color: #708f97;
 }
+@media (max-width: 992px) {
+  #pricingtable .textbox h1 {
+    font-size: 30px;
+  }
+  #pricingtable .textbox h3 {
+    font-size: 18px;
+  }
+  #pricingtable .box {
+    margin-top: 15px;
+  }
+}
 
 #questions {
   padding: 40px 0;
-}
-#questions .wid {
-  width: 580px;
 }
 #questions h1 {
   font-weight: 700;
@@ -214,29 +284,6 @@ body .imgbox img {
   margin: 0 0 40px;
   line-height: 1.4;
 }
-#questions .textbox {
-  padding: 0 70px;
-}
-#questions .textbox h2, #questions .textbox h4 {
-  margin: 0 0 0 10px;
-  font-size: 25px;
-  color: #717171;
-}
-#questions .textbox .minibox {
-  margin: 20px 0 0 0;
-}
-#questions .textbox .minibox h2 {
-  margin: 0 0 0 10px;
-}
-#questions .textbox p {
-  font-size: 20px;
-  margin: 30px 0 0 32px;
-  color: #949494;
-}
-#questions .textbox li {
-  margin: 30px 0 0;
-  display: flex;
-}
 #questions .icon {
   color: #d4cece;
 }
@@ -245,6 +292,11 @@ body .imgbox img {
 }
 #questions .bigicon i {
   font-size: 30px;
+}
+@media (max-width: 992px) {
+  #questions .textbox h1 {
+    font-size: 30px;
+  }
 }
 
 #doggerblog {

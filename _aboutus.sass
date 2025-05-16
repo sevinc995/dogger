@@ -1,7 +1,7 @@
 #aboutus
     padding: 40px 0
     .textbox
-        padding: 0 100px
+        padding: 0 10px
         h1
             font-weight: 700
             font-size: 35px
@@ -25,5 +25,22 @@
             color: #949494
             font-size: 20px
     .imgbox
-        width: 450px
+        // width: 450px
+
+    @media (max-width: 992px)
+        .textbox
+            text-align: center
+            h1 
+                font-size: 30px
+            h3,p 
+                font-size: 18px
+        ul
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        .imgbox
+            margin: 50px 10px 0 10px
+    
+            
 
