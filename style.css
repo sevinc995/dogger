@@ -195,13 +195,16 @@ body .imgbox img {
     text-align: center;
   }
   #ourtrainers .box .textbox h2 {
-    padding: 10px 0 0;
+    padding: 5px 0 0;
   }
   #ourtrainers .box ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+  #ourtrainers .imgbox {
+    margin-top: 40px;
   }
 }
 
@@ -297,6 +300,20 @@ body .imgbox img {
   #questions .textbox h1 {
     font-size: 30px;
   }
+  #questions .textbox h2, #questions .textbox h4 {
+    font-size: 20px;
+  }
+  #questions .textbox p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  #questions .textbox h2, #questions .textbox h4 {
+    font-size: 18px;
+  }
+  #questions .textbox p {
+    font-size: 18px;
+  }
 }
 
 #doggerblog {
@@ -362,4 +379,13 @@ body .imgbox img {
 }
 #ourservices .textbox .icon {
   font-size: 60px;
+}
+@media (max-width: 992px) {
+  #ourservices h1 {
+    font-size: 30px;
+  }
+  #ourservices .textbox {
+    padding: 30px 10px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
